@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Home</a>
+
+        <!-- Active link pointing to the section1.html page -->
+        <a class="active" href="section1.html">Section 1</a>
+
+        <a href="section2.html">Section 2</a>
+        <a href="section3.html">Section 3</a>
+        <a href="see_also.html">See Also</a>
+        <a href="references.html">References</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="title">The Beginnings of Ravenna Park</div>
+    <div class="subtitle">approx 1887-1890</div>
+    <div class="content">
+        <!-- Section 1 content -->
+        The area now known as Ravenna Park was initially purchased by William and Sarah Bell who were some of Seattle’s
+        first pioneer settlers. The deep ravine that ran through the area made it unsuitable for logging, which was what most of the land
+        was being purchased for at the time. The couple sold the land years 
+        before Sarah’s death, and it was eventually purchased by George and Oltide Durffel in 1887. That same year, the land 
+        was established as Ravenna Springs Park, referring to the natural springs which were believed to have medicinal qualities. 
+        Just two years later, the park was sold to William and Louise Beck along with over 300 acres of the surrounding land. With 
+        the vision of a prosperous town on their newly purchased land, the Becks built Seattle Female College, a post office, and a 
+        grocery store.
+
+
+    </div>
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgX5-dIXeEM6Q9_X4LUB4xwq2s6BOBUsPLZw&s" style="width:auto; height: auto;">
+    <div class="text">Ravenna Springs</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://spl.contentdm.oclc.org/digital/api/singleitem/image/p15015coll4/1719/default.jpg" style="width:auto; height: auto;">
+    <div class="text">Seattle Female College</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://www.historylink.org/Content/Media/Photos/Small/bio_2015.jpeg" style="width:auto; height: auto;">
+    <div class="text">William and Louise Beck</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</body>
+
+</html>
